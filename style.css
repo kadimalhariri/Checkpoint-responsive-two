@@ -1,0 +1,135 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}
+.navbar a {
+    margin-right: 29px;
+    text-decoration: none;
+    color: black;
+}
+h3{
+    color: black;
+}
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+}
+nav i {
+    margin: 0px 20px 0px 60px;
+}
+.landing-page {
+    width: 100%;
+    height: 680px;
+}
+.landing-page img {
+    width: 100%;
+    height: 680px;
+}
+.product {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.project-card{
+    background-color: white;
+    color: black;
+    border: 1px solid whitesmoke;
+    /* min-height: 14em; */
+    /* change 23 to 20 */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    /* margin: 20px; */
+    transition: 0.7s ease;
+    height: 350px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-img{
+    opacity: 0.9;
+}
+.project-img {
+    /* background-color: red; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-img img{
+    width: 150px;
+    height: 150px;
+}
+.project-info{
+    padding: 1em;
+    color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.show-more{
+    text-decoration: none;
+    color: #0370EC;
+}
+
+footer{
+    background-color: whitesmoke;
+    color: black;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 600px;
+}
+.footer-title span{
+    color: red;
+}
+@media (max-width:430px){
+   ul li {
+    display: none;
+   }
+   .product {
+     display: grid;
+     place-items: center;
+     width: 100%;
+     height: 1900px;
+   }
+   .project-card {
+    margin: 20px;
+   }
+   footer {
+    width: 100%;
+    height: 100px;
+    /* display: flex; */
+    position: relative;
+}
+   footer p {
+    position: absolute;
+    right: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   
+    
+    
+
+}
