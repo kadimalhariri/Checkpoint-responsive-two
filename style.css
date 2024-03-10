@@ -45,13 +45,10 @@ nav i {
     background-color: white;
     color: black;
     border: 1px solid whitesmoke;
-    /* min-height: 14em; */
-    /* change 23 to 20 */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 20em;
     overflow: hidden;
     border-radius: 10px;
-    /* margin: 20px; */
     transition: 0.7s ease;
     height: 350px;
 }
@@ -62,7 +59,6 @@ nav i {
     opacity: 0.9;
 }
 .project-img {
-    /* background-color: red; */
     height: 200px;
     display: flex;
     justify-content: center;
@@ -104,6 +100,7 @@ footer{
 .footer-title span{
     color: red;
 }
+/* START MEDIA FOR RESPONSIVE */
 @media (max-width:430px){
    ul li {
     display: none;
@@ -120,7 +117,6 @@ footer{
    footer {
     width: 100%;
     height: 100px;
-    /* display: flex; */
     position: relative;
 }
    footer p {
@@ -133,3 +129,4 @@ footer{
     
 
 }
+/* END MEDIA FOR RESPONSIVE */
